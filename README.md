@@ -6,3 +6,7 @@ My Experiments with AWS!..
 
 Git and github
 SSH
+html
+CSS
+Font Awesome
+Google fonts
