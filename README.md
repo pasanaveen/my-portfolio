@@ -1,3 +1,8 @@
-# Naveins Portfolio
+# Naveins's Portfolio
 
 My Experiments with AWS!..
+
+#Technologies used
+
+Git and github
+SSH
