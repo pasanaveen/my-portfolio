@@ -21,6 +21,7 @@ def lambda_handler(event, context):
                 if artifact["name"] == "MyAppBuild":
                     location = artifact["location"]["s3Location"]
 
+        print " building portfolio from" +str(location)
         s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
         portfolio_bucket = s3.Bucket('portfolio.corecomet.com')
@@ -37,11 +38,12 @@ def lambda_handler(event, context):
                 portfolio_bucket.Object(name).Acl().put(ACL='public-read')
 
         print "Job Done!"
+        print "Fake Test"
         topic.publish(Subject="Portfolio Success", Message="Portfolio was deployed successfully")
         if job:
             codepipeline = boto3.client('codepipeline')
             codepipeline.put_job_success_result(jobId=job["id"])
     except:
         topic.publish(Subject="Portfolio failed", Message="Portfolio failed with an exception")
-    raise
+
     return "hello from lambda"
