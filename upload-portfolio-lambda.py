@@ -10,7 +10,7 @@ def lambda_handler(event, context):
     topic = sns.Topic('arn:aws:sns:us-east-1:680058821313:deployPortfolioTopic')
 
     location = {
-        "bucketName": 'portfoliobuild.corecome.com',
+        "bucketName": 'portfoliobuild.corecomet.com',
         "objectKey": 'portfoliobuild.zip'
     }
     try:
