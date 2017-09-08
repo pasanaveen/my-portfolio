@@ -2,8 +2,6 @@ import boto3
 from botocore.client import Config
 import StringIO
 import zipfile
-import mimetypes
-
 
 def lambda_handler(event, context):
     sns = boto3.resource('sns')
@@ -13,7 +11,7 @@ def lambda_handler(event, context):
         s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
         portfolio_bucket = s3.Bucket('portfolio.corecomet.com')
-        build_bucket = s3.Bucket('portfoliobuild.corecomet.com')
+        build_bucket = s3.Bucket('portfoliobuild.corecome.com')
 
         portfolio_zip = StringIO.StringIO()
         build_bucket.download_fileobj('portfoliobuild.zip', portfolio_zip)
@@ -21,13 +19,12 @@ def lambda_handler(event, context):
         with zipfile.ZipFile(portfolio_zip) as myzip:
             for name in myzip.namelist():
                 obj = myzip.open(name)
-                portfolio_bucket.upload_fileobj(obj, name,
-                    ExtraArgs={'ContentType': mimetypes.guess_type(name)[0]})
+                portfolio_bucket.upload_fileobj(obj, name)
                 portfolio_bucket.Object(name).Acl().put(ACL='public-read')
 
-        print "job done!"
+        print "Job Done!"
+        topic.publish(Subject="Portfolio Success", Message="Portfolio was deployed successfully")
     except:
         topic.publish(Subject="Portfolio failed", Message="Portfolio failed with an exception")
-        topic.publish(Subject="Portfolio Deployed", Message="Portfolio deployed successfully")
     raise
     return "hello from lambda"
