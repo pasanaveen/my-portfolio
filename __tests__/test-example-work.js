@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow } from 'enzyme';
-import ExampleWork , {ExampleWorkBubble} from '../js/example-work';
+import ExampleWork , { ExampleWorkBubble } from '../js/example-work';
 
 const myWork = [
   {
@@ -43,5 +43,8 @@ describe("ExampleWorkBubble component", () => {
     expect(images.length).toEqual(1);
   });
 
+  it("should have the image src set correctly", () => {
+    expect(images.node.props).toEqual(myWork[1].image.src);
+  });
 
 });
