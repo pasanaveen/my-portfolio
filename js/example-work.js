@@ -26,7 +26,7 @@ class ExampleWorkBubble extends React.Component {
         <div className="section__example">
           <img alt={example.image.desc}
                className="section__exampleImage"
-               src={example.imahe.src}/>
+               src={example.image.src}/>
           <dl className="color--cloud">
             <dt className="section__exampleTitle section__text--centered">
               {example.title}
@@ -39,3 +39,4 @@ class ExampleWorkBubble extends React.Component {
   }
 }
 export default ExampleWork;
+export { ExampleWorkBubble };
