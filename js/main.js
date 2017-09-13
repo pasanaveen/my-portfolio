@@ -22,7 +22,7 @@ const myWork = [
     10. ReactJS ( React Js framework for making the website dynamic and interactive ).
     11. Web Pack ( For packaging the files and distributing the code in proper manner ).
     12. Jest, Enzyme, Chai , Mocha ( For making responsive and Testing the code).
-    13. Node Js and NPM.",`
+    13. Node Js and NPM."`,
     'image': {
       'desc': "example screenshot of a project involving chemistry",
       'src': "images/example1.PNG",
