@@ -17,7 +17,7 @@ const myWork = [
   {
     'title': "Work Example 2",
     'href': "https://portfolio.corecomet.com/",
-    'desc':
+    'desc': "Pending.....",
     'image': {
       'desc': "example screenshot of a project involving cats",
       'src': "images/example3.png",
@@ -29,7 +29,7 @@ const myWork = [
   {
     'title': "Work Example 3",
     'href': "https://portfolio.corecomet.com/",
-    'desc':
+    'desc': "Pending...",
     'image': {
       'desc': "example screenshot of a project involving code",
       'src': "images/example1.png",
