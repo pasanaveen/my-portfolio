@@ -6,7 +6,23 @@ const myWork = [
   {
     'title': "Work Example 1 - Serverless using AWS",
     'href': "https://github.com/pasanaveen/my-portfolio",
-    'desc': "Build a complete Portfolio website using AWS technologies. Serverless programming is a great way to build websites       without using any native servers. The technologies used in this project are : AWS S3 ( For storing Objects, Images, Frontend code related files etc.. ), AWS Lambda ( For invoking the Lambda function in AWS to deploy the code ), Code Build ( For automatic build ), Cloud Front ( For distribution of the website to other regions ), IAM ( For security and credentials ), Code Pipeline ( For automating entire code build, deploy process) , Python & boto3 ( For writing scripts for Lambda function), GitHub ( Used as Code Repository), HTML, CSS, Babel ( For maintaining compatability across browsers ), ReactJS ( React Js framework for making the website dynamic and interactive ), Web Pack ( For packaging the files and distributing the code in proper manner ), Jest, Enzyme, Chai , Mocha ( For making responsive and Testing the code), Node Js and NPM.",
+    'desc': `"Build a complete Portfolio website using AWS technologies. 
+    - Serverless programming is a great way to build websites without using any native servers. 
+    
+    - The technologies used in this project are : 
+    1. AWS S3 ( For storing Objects, Images, Frontend code related files etc.. ).
+    2. AWS Lambda ( For invoking the Lambda function in AWS to deploy the code ).
+    3. Code Build ( For automatic build ).
+    4. Cloud Front ( For distribution of the website to other regions ).
+    5. IAM ( For security and credentials ).
+    6. Code Pipeline ( For automating entire code build, deploy process).
+    7. Python & boto3 ( For writing scripts for Lambda function).
+    8. GitHub ( Used as Code Repository).
+    9. HTML, CSS, Babel ( For maintaining compatability across browsers ).
+    10. ReactJS ( React Js framework for making the website dynamic and interactive ).
+    11. Web Pack ( For packaging the files and distributing the code in proper manner ).
+    12. Jest, Enzyme, Chai , Mocha ( For making responsive and Testing the code).
+    13. Node Js and NPM.",`
     'image': {
       'desc': "example screenshot of a project involving chemistry",
       'src': "images/example1.PNG",
