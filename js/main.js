@@ -15,7 +15,7 @@ const myWork = [
     Click on "CHECK IT OUT" button to learn more about this.`,
     'image': {
       'desc': "example screenshot of a project involving chemistry",
-      'src': "images/example1.PNG",
+      'src': "images/image.png",
       'comment': ""
     }
   },
@@ -29,7 +29,7 @@ const myWork = [
              Click on "CHECK IT OUT" button!...`,
     'image': {
       'desc': "example screenshot of a project involving cats",
-      'src': "images/example1.PNG",
+      'src': "images/image.png",
       'comment': ""
     }
   },
@@ -40,7 +40,7 @@ const myWork = [
     'desc': "IBM Watson Sample Project Pending...",
     'image': {
       'desc': "example screenshot of a project involving code",
-      'src': "images/example1.PNG",
+      'src': "images/image.png",
       'comment': ""
     }
   }
