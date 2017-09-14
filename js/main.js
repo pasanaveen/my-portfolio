@@ -21,7 +21,7 @@ const myWork = [
   },
 
   {
-    'title': "Music Album",
+    'title': "My Music",
     'href': "https://soundcloud.com/naveen-pa/sets/soundcomet-2017",
     'desc': `Check out my first Album "soundcomet-2017" produced and composed by me!..
             The music is produced and composed using LoopPacks and LaunchPad. 
