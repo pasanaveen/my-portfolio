@@ -4,7 +4,7 @@ import ExampleWork from './example-work';
 
 const myWork = [
   {
-    'title': "Work Example 1 - Serverless using AWS",
+    'title': "Code Example",
     'href': "https://github.com/pasanaveen/my-portfolio",
     'desc': Build a complete Portfolio website using AWS technologies. 
     Serverless programming is a great way to build websites without using any native servers. 
@@ -12,8 +12,7 @@ const myWork = [
      AWS S3, AWS Lambda, Code Build, Cloud Front, IAM, Code Pipeline, Python & boto3, GitHub, HTML, CSS, Babel, ReactJS, Web Pack 
      Jest, Enzyme, Chai , Mocha, Node Js and NPM.
     
-    Click on "CHECK IT OUT" button to learn more about this."
-    ",
+    Click on "CHECK IT OUT" button to learn more about this.",
     'image': {
       'desc': "example screenshot of a project involving chemistry",
       'src': "images/example1.PNG",
@@ -22,7 +21,7 @@ const myWork = [
   },
 
   {
-    'title': "Work Example 2",
+    'title': "Music Album",
     'href': "https://soundcloud.com/naveen-pa/sets/soundcomet-2017",
     'desc': Check out my first Album "soundcomet-2017" produced and composed by me!..
             The music is produced and composed using LoopPacks and LaunchPad. 
@@ -31,15 +30,14 @@ const myWork = [
     'image': {
       'desc': "example screenshot of a project involving cats",
       'src': "images/example1.PNG",
-      'comment': `“Bengal cat” by roberto shabs is licensed under CC BY 2.0
-                  https://www.flickr.com/photos/37287295@N00/2540855181`
+      'comment': ""
     }
   },
 
   {
-    'title': "Work Example 3",
+    'title': "Example Work Pending...",
     'href': "https://portfolio.corecomet.com",
-    'desc': "Pending...",
+    'desc': "IBM Watson Sample Project Pending...",
     'image': {
       'desc': "example screenshot of a project involving code",
       'src': "images/example1.PNG",
