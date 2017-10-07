@@ -37,7 +37,7 @@ const myWork = [
   {
     'title': "Example Work Pending...",
     'href': "https://portfolio.corecomet.com",
-    'desc': "IBM Watson Sample Project Pending...",
+    'desc': "..........",
     'image': {
       'desc': "example screenshot of a project involving code",
       'src': "images/image.png",
